@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>О компании</title>
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/slick-theme.css">
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+	<link href="https://fonts.googleapis.com/css?family=Philosopher:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<script src="js/bootstrap.min.js"></script>
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/jquery.maskedinput.min.js"></script>
+	<script src="js/popup.js"></script>
+</head>
+<body>
+	<nav class="top-menu">
+		<ul>
+			<li><a href="../">О компании</a></li>
+			<li><a href="repair.html">Ремонт и поверка</a></li>
+			<li><a href="licenses.html">Лицензии</a></li>
+			<li><a href="contacts.html">Контакты</a></li>
+			<li class="feedback"><a href="contactus.html"></a></li>
+		</ul>
+	</nav>
+	<!-- <div class="loading o-hidden">
+		<div class="windows8">
+			<div class="wBall" id="wBall_1">
+				<div class="wInnerBall"></div>
+			</div>
+			<div class="wBall" id="wBall_2">
+				<div class="wInnerBall"></div>
+			</div>
+			<div class="wBall" id="wBall_3">
+				<div class="wInnerBall"></div>
+			</div>
+			<div class="wBall" id="wBall_4">
+				<div class="wInnerBall"></div>
+			</div>
+			<div class="wBall" id="wBall_5">
+				<div class="wInnerBall"></div>
+			</div>
+		</div>
+	</div> -->
+	<!-- /.loading -->
+	
+	<header class="header">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-2 hidden-xl-down">
+					<div class="call-menu">
+						<input type="checkbox">
+						<span class="span1"></span>
+						<span class="span2"></span>
+						<span class="span3"></span>
+					</div>
+					<!-- /.call-menu -->
+				</div>
+				<!-- /.col-2 -->
+
+				<div class="col-2 hidden-xl-down">
+					<a href="#">
+						<img src="img/icon-logo.png" class="mobile-logo" alt="">
+					</a>
+				</div>
+				<!-- /.col-10 -->
+				<!-- <div class="col-12 col-xl-6">
+					<a href="../">
+						<img src="img/logo.png" class="logo" alt="логотип">
+					</a>
+				</div> -->
+				<div class="col-8 col-xl-6 info">
+					<div class="phone">
+						<a href="tel:88123319880">8 (812) 331-98-80</a>
+						<a href="tel:88123319880">8 (921) 638-68-85</a>
+					</div>
+				</div>
+			</div>
+			<!-- /.row -->
+		</div>
+		<!-- /.container -->
+	</header>
+	<!-- /.header -->
+
+	<!-- <nav> -->
+		<!-- <div class="container"> -->
+			<!-- <div class="row"> -->
+				<!-- <div class="col-12 col-xl-12"> -->
+					<!-- <ul> -->
+							<!-- <li class="active"><a href="../">О компании</a></li> -->
+						<!-- 	<li><a href="repair.html">Ремонт и поверка</a></li>
+							<li><a href="licenses.html">Лицензии</a></li>
+							<li><a href="contacts.html">Контакты</a></li>
+							<li class="feedback"><a href="#">Обратная связь</a></li>
+						</ul>
+				</div> -->
+				<!-- /.col-xl-12 -->
+			<!-- </div> -->
+			<!-- /.row -->
+		<!-- </div> -->
+		<!-- /.container -->
+	<!-- </nav> -->
+
+	<div class="overlay">
+		<div class="popup-feedback">
+			<div class="btn-close">&#10008;</div>
+			<div class="title">
+				Обратная связь
+			</div><hr>
+			<!-- /.title -->
+
+			<form action="" class="content">
+				<label for="name">Имя:</label>
+				<input type="text" placeholder="Введите ваше имя ..." id="name"><br>
+				<label for="name">Номер телефона:</label>
+				<input type="text" placeholder="Введите ваш номер телефона ..." id="number"><br>
+				<label for="name">Текст сообщения:</label>
+				<textarea name="" id="message"></textarea>
+				<button>Отправить</button>
+			</form>
+		</div>
+		<!-- /.popup-feedback -->
+
+		<div class="popup-repair">
+			<div class="btn-close">&#10008;</div>
+			<div class="title">Заголовок</div>
+		</div>
+		<!-- /.popup-repair -->
+	</div>
+	<!-- /.overlay -->
+
+	<section class="contacts">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-xl-6 order-2 order-sm-1">
+					<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A021a119f7fb83707e1e254dc72998968c5a00463d98925b4372769ac5bedc8b3&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
+				</div>
+				<!-- /.col-6 -->
+
+				<div class="col-0 col-xl-1"></div>
+				<!-- /.col-1 -->
+
+				<div class="col-12 col-xl-5 order-1 order-sm-2">
+					<h2 class="title">Контакты</h2>
+					<!-- /.title -->
+
+					<div class="adress">
+						<div class="label"><i class="fas fa-map-marker-alt icon"></i>Адрес:</div>
+						<div class="content">190020, Санкт-Петербург, Рижский проспект, дом 58, офис № 1.10</div>
+					</div>
+					<!-- /.adress -->
+
+					<div class="phone">
+						<div class="label"><i class="fas fa-phone icon"></i>Телефоны:</div>
+						<div class="content"><a href="">+7 (812) 331 98-80</a><br><a href="">+7 (921) 638 68

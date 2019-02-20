@@ -1,0 +1,63 @@
+.request
+  .title
+    margin-bottom: 40px
+#inline
+  text-align: center
+  margin-left: 30px
+  width: 80%
+  margin: 0 auto
+  background: #fff
+  padding: 10px 20px
+.txt
+  display: inline-block
+  color: #676767
+  width: 32%
+  margin-bottom: 10px
+  border: 1px solid #ccc
+  padding: 10px 9px
+  font-size: 15px !important
+  line-height: 1.4em
+  &#name
+    float: left
+  &#phone
+    margin: 0 auto
+  &#email
+    float: right
+.txtarea
+  display: block
+  color: #676767
+  width: 100%
+  margin-top: 20px
+  margin-bottom: 20px
+  border: 1px solid #ccc
+  padding: 5px 9px
+  font-size: 15px!important
+  line-height: 1.4em
+  height: 340px
+.txt, .txtarea
+    &:focus
+      border-style: solid
+      border-color: #bababa
+      color: #444
+input, textarea
+  &.error
+    border-color: #973d3d
+    border-style: solid
+    background: #f0bebe
+    color: #a35959
+    &:focus
+      border-color: #973d3d
+      color: #a35959
+#send
+    color: #FFFFFF
+    display: block
+    cursor: pointer
+    padding: 5px 11px
+    font-size: 1.2em
+    border: solid 1px #F9F9F9
+    border-radius: 2px
+    background: $blue
+    width: 210px
+    margin-bottom: 20px
+    &:hover
+      background: lighten($blue, 5)

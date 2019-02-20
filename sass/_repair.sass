@@ -1,0 +1,37 @@
+.repair
+	background-color: $blue
+	.list, .sublist
+		margin: 0
+		padding: 0
+		counter-reset: li
+		list-style: none
+		li
+			cursor: pointer
+			transition: 0.5s ease-in-out
+			&:hover
+				color: $orange
+	.list
+		li
+			margin-bottom: 10px
+			font-size: 20px
+			&::before
+				counter-increment: li
+				content: counters(li,".") " "
+				padding: 5px 0
+				display: inline-block
+				margin-right: 5px
+				border-radius: 20px
+				color: $white
+				text-align: center
+				width: 50px
+				background-color: #65486c
+				border: 0.1px solid $blue
+	.sublist
+		display: none
+		margin-top: 10px
+		li
+			margin-left: 30px
+			&::before
+				background-color: darken(#65486c, 15)
+				box-shadow: 10px 0 0 #97a8c2
+				margin-right: 15px
